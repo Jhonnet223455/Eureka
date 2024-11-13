@@ -3,12 +3,15 @@ package com.co.Diaz.MicroserviciosUsuarios.Controller;
 import com.co.Diaz.MicroserviciosUsuarios.Service.StudentService;
 import com.co.Diaz.MicroserviciosUsuarios.entity.Student;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.HttpStatusCode;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Repository;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Optional;
 
 @RestController
@@ -49,6 +52,19 @@ public class StudentController {
         studentdb.setEmail(student.getEmail());
         return ResponseEntity.status(HttpStatus.CREATED).body(service.save(studentdb));
     }
+
+    @Value("${config.balanaceador.test}")
+    private String balanceador;
+
+    @GetMapping("/balanceador-test")
+    public ResponseEntity<?> balanceadorTest() {
+        Map<String, Object> response = new HashMap<String, Object>();
+        response.put("balanceador", balanceadorTest());
+        response.put("students", service.findAll());
+
+        return ResponseEntity.ok().body(response);
+    }
+
 
 
 }

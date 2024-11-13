@@ -1,36 +1,37 @@
-package com.co.Diaz.MicroserviciosUsuarios.Service;
+package com.diaz.commons.service;
 
-import com.co.Diaz.MicroserviciosUsuarios.Repository.StudentRepository;
-import com.co.Diaz.MicroserviciosUsuarios.entity.Student;
 import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Service;
+
 
 import java.util.Optional;
 
-@Service
-public class StudentServiceImpl implements StudentService {
+
+public class StudentServiceImpl <E , R extends CrudRepository<E, Long>> implements StudentService<E> {
 
     @Autowired
-    StudentRepository dao;
+    private R dao;
 
     @Override
     @Transactional
-    public Iterable<Student> findAll() {
+    public Iterable<E> findAll() {
         return dao.findAll();
     }
 
     @Override
     @Transactional
-    public Optional<Student> findById(Long id) {
+    public Optional<E> findById(Long id) {
         return dao.findById(id);
 
     }
 
     @Override
     @Transactional
-    public Student save(Student student) {
-        return dao.save(student);
+    public E save(E entity) {
+        return
+                dao.save(entity);
     }
 
     @Override
