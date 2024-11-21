@@ -3,13 +3,10 @@ package com.diaz.commons.service;
 import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.repository.CrudRepository;
-import org.springframework.stereotype.Service;
-
 
 import java.util.Optional;
 
-
-public class StudentServiceImpl <E , R extends CrudRepository<E, Long>> implements StudentService<E> {
+public class StudentServiceImpl<E, R extends CrudRepository<E, Long>> implements CommonService<E> {
 
     @Autowired
     private R dao;
@@ -24,22 +21,17 @@ public class StudentServiceImpl <E , R extends CrudRepository<E, Long>> implemen
     @Transactional
     public Optional<E> findById(Long id) {
         return dao.findById(id);
-
     }
 
     @Override
     @Transactional
     public E save(E entity) {
-        return
-                dao.save(entity);
+        return dao.save(entity);
     }
 
     @Override
     @Transactional
     public void deleteById(Long id) {
-
         dao.deleteById(id);
     }
-
-
 }

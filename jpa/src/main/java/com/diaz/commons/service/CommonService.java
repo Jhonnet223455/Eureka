@@ -1,9 +1,8 @@
 package com.diaz.commons.service;
 
-
 import java.util.Optional;
 
-public interface StudentService<E> {
+public interface CommonService<E> {
 
     public Iterable<E> findAll();
 

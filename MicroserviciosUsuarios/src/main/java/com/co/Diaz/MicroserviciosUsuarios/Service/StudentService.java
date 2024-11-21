@@ -1,14 +1,11 @@
 package com.co.Diaz.MicroserviciosUsuarios.Service;
 
 import com.co.Diaz.MicroserviciosUsuarios.entity.Student;
+import com.diaz.commons.service.CommonService;
 
 import java.util.Optional;
 
-public interface StudentService {
-
-    public Iterable<Student> findAll();
-
-    public Optional<Student> findById(Long id);
+public interface StudentService extends CommonService<Student> {
 
     public Student save(Student student);
 
