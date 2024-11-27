@@ -41,9 +41,14 @@ public class CommonController<E, S extends CommonService<E>> {
         return ResponseEntity.ok().body(ob.get());
     }
 
-    @PostMapping
+    @PostMapping("/crear")
     public ResponseEntity<?> crear(@RequestBody E entity) {
         E entityDb = service.save(entity);
         return ResponseEntity.status(HttpStatus.CREATED).body(entityDb);
+    }
+    @DeleteMapping("/{id}")
+    public ResponseEntity<?> eliminar(@PathVariable Long id) {
+        service.deleteById(id);
+        return ResponseEntity.noContent().build();
     }
 }

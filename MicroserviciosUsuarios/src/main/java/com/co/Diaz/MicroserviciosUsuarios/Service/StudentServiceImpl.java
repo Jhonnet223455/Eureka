@@ -1,11 +1,10 @@
 package com.co.Diaz.MicroserviciosUsuarios.Service;
 
 import com.co.Diaz.MicroserviciosUsuarios.Repository.StudentRepository;
-import com.co.Diaz.MicroserviciosUsuarios.entity.Student;
+import com.diaz.common.user.MicroserviceCommonService.models.entity.Student;
 import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import java.util.Optional;
 
 @Service

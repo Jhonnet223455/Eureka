@@ -5,22 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e1687f11-2ff4-4bef-88d2-d86020074e56" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../curso/src/main/java/com/example/curso/controller/CourseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../curso/src/main/java/com/example/curso/models/entity/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../curso/src/main/java/com/example/curso/repository/CourseRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../curso/src/main/java/com/example/curso/service/CourseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../curso/src/main/java/com/example/curso/service/CourseServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/diaz/commons/controller/CommonController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MicroserviceCommonService/src/main/java/com/diaz/common/user/MicroserviceCommonService/models/entity/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MicroserviceCommonService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MicroserviceCommonService/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MicroserviceCommonService/src/main/java/com/diaz/common/user/MicroserviceCommonService/MicroserviceCommonServiceApplication.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../MicroserviciosUsuarios/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MicroserviciosUsuarios/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MicroserviciosUsuarios/src/main/java/com/co/Diaz/MicroserviciosUsuarios/Controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MicroserviciosUsuarios/src/main/java/com/co/Diaz/MicroserviciosUsuarios/Controller/StudentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MicroserviciosUsuarios/src/main/java/com/co/Diaz/MicroserviciosUsuarios/MicroserviciosUsuariosApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MicroserviciosUsuarios/src/main/java/com/co/Diaz/MicroserviciosUsuarios/MicroserviciosUsuariosApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MicroserviciosUsuarios/src/main/java/com/co/Diaz/MicroserviciosUsuarios/Repository/StudentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MicroserviciosUsuarios/src/main/java/com/co/Diaz/MicroserviciosUsuarios/Repository/StudentRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MicroserviciosUsuarios/src/main/java/com/co/Diaz/MicroserviciosUsuarios/Service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MicroserviciosUsuarios/src/main/java/com/co/Diaz/MicroserviciosUsuarios/Service/StudentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MicroserviciosUsuarios/src/main/java/com/co/Diaz/MicroserviciosUsuarios/Service/StudentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MicroserviciosUsuarios/src/main/java/com/co/Diaz/MicroserviciosUsuarios/Service/StudentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MicroserviciosUsuarios/src/main/java/com/co/Diaz/MicroserviciosUsuarios/entity/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MicroserviceCommonService/src/main/java/com/diaz/common/user/MicroserviceCommonService/models/entity/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MicroserviciosUsuarios/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../MicroserviciosUsuarios/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../apigateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../apigateway/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../apigateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../apigateway/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/diaz/commons/service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/diaz/commons/service/CommonService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/diaz/commons/service/StudentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/diaz/commons/service/StudentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../curso/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../curso/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../curso/src/main/java/com/example/curso/MicroserviceSpringCourseApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../curso/src/main/java/com/example/curso/MicroserviceSpringCourseApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../curso/src/main/java/com/example/curso/controller/CourseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../curso/src/main/java/com/example/curso/controller/CourseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../curso/src/main/java/com/example/curso/models/entity/Course.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../curso/src/main/java/com/example/curso/repository/CourseRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../curso/src/main/java/com/example/curso/repository/CourseRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../curso/src/main/java/com/example/curso/service/CourseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../curso/src/main/java/com/example/curso/service/CourseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../curso/src/main/java/com/example/curso/service/CourseServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../curso/src/main/java/com/example/curso/service/CourseServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../curso/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../curso/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/diaz/commons/controller/CommonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/diaz/commons/controller/CommonController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,10 +37,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 8
@@ -45,11 +52,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Maven.jpa [clean,install].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/jhonm/Desktop/Eureka/curso",
+    "last_opened_file_path": "C:/Users/jhonm/Desktop/Eureka/jpa",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -59,6 +67,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean install" />
+    </option>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -86,7 +99,11 @@
       <workItem from="1731789726346" duration="665000" />
       <workItem from="1731790677230" duration="12000" />
       <workItem from="1731790708724" duration="65000" />
-      <workItem from="1731947741938" duration="14227000" />
+      <workItem from="1731947741938" duration="14445000" />
+      <workItem from="1732567542590" duration="4439000" />
+      <workItem from="1732670463065" duration="764000" />
+      <workItem from="1732672330897" duration="276000" />
+      <workItem from="1732672737914" duration="705000" />
     </task>
     <servers />
   </component>

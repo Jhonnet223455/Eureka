@@ -1,12 +1,8 @@
 package com.co.Diaz.MicroserviciosUsuarios.Repository;
 
-import com.co.Diaz.MicroserviciosUsuarios.entity.Student;
-import org.springframework.data.jpa.repository.JpaRepository;
+import com.diaz.common.user.MicroserviceCommonService.models.entity.Student;
 import org.springframework.data.repository.CrudRepository;
 
-
 public interface StudentRepository extends CrudRepository<Student, Long> {
-
-
-
+    // Métodos personalizados, si son necesarios
 }

@@ -1,13 +1,13 @@
-package com.co.Diaz.MicroserviciosUsuarios.entity;
+package com.diaz.common.user.MicroserviceCommonService.models.entity;
 
 import jakarta.persistence.*;
 import lombok.*;
 
 import java.util.Date;
 
-@Data
-@NoArgsConstructor
-@AllArgsConstructor
+
+@Getter
+@Setter
 @Entity
 @Table(name = "students")
 public class Student {
@@ -28,5 +28,20 @@ public class Student {
         createAt = new Date();
 
     }
+
+    @Override
+    public boolean equals(Object obj){
+        if(this == obj){
+            return true;
+        }
+        if(!(obj instanceof Student)){
+            return false;
+        }
+        Student a = (Student) obj;
+        return this.id != null && this.id.equals(a.getId());
+
+    }
+
+
 
 }

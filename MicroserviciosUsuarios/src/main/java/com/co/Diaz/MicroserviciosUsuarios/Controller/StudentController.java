@@ -1,14 +1,12 @@
 package com.co.Diaz.MicroserviciosUsuarios.Controller;
 
 import com.co.Diaz.MicroserviciosUsuarios.Service.StudentService;
-import com.co.Diaz.MicroserviciosUsuarios.entity.Student;
+import com.diaz.common.user.MicroserviceCommonService.models.entity.Student;
 import com.diaz.commons.controller.CommonController;
-
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Optional;
